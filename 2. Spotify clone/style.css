@@ -1,0 +1,74 @@
+body{
+    font-family: "Montserrat", serif;
+    margin: 0;
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+/* --------------------------------Side bar style ---------------------------*/
+.sidebar{
+    background-color: #000;
+    width: 340px;
+    border-radius: 1rem; /*1 rem is equal to 16px*/
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+}
+
+.nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option i{
+    font-size: 1.25rem;
+}
+
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+}
+
+/* --------------------------------main-content style ---------------------------*/
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+/* --------------------------------music player style ---------------------------*/
+.music-player{
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+}
