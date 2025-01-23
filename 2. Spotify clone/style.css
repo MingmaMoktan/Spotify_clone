@@ -157,20 +157,6 @@ a{
     }
 }
 
-.footer{
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.line{
-    width: 90%;
-    height: 30%;
-    border-top: 1px solid white;
-    opacity: 0.4;
-}
-
 /* --------------------------------Cards---------------------------------------- */
 
 .card{
@@ -199,6 +185,32 @@ a{
 .card-info{
     font-size: 0.85rem;
     opacity: 0.8;
+}
+
+/* -------------------------------------footer of the cartd ------------------------ */
+
+.footer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+/* --------------------------------------Music Playert------------------------------------- */
+
+.music-player{
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
 }
 
 .music-player{
@@ -265,13 +277,3 @@ a{
 
 /* To style this slider progress bar go to this link and see 
 link = https://www.quirksmode.org/blog/archives/2015/11/styling_and_scr.html */
-
-/* --------------------------------------Music Playert------------------------------------- */
-
-.music-player{
-    background-color: #000;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 72px;
-}
