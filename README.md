@@ -1,2 +1,1 @@
-# My-Web-design-Projects
-Here I have kept most of my web design projects and templets.
+This is the clone of spotify website frontend build as a small project.
